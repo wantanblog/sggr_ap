@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['sggr_ap.py'],
-             pathex=['C:\\Users\\wanta\\Desktop\\dev\\src\\python_test\\sggr_ap'],
+             pathex=['C:\\Users\\wanta\\Desktop\\dev\\src\\sggr_ap'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False )
+          console=False , icon='sggr_ap.ico')
